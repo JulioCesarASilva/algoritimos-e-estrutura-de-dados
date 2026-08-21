@@ -1,0 +1,16 @@
+# Artefatos de C e C++
+*.o
+*.obj
+*.out
+*.exe
+
+# Pastas comuns de compilação
+build/
+bin/
+out/
+
+# Configurações locais de editores e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
