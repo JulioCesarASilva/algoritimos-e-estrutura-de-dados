@@ -23,7 +23,7 @@ Execute os comandos **a partir da pasta com os codigos de suas respectivas lingu
 ### C++
 
 ```bash
-g++ main.cpp -o ../../tpm/main.bin
+g++ main.cpp lista.cpp lista.hpp -o ../../tmp/main.bin
 ../../tpm/main.bin
 ```
 
