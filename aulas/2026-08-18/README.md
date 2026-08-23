@@ -6,7 +6,7 @@ Exercício de implementação de uma lista simplesmente ligada em C++.
 
 | Tópico | C++ | Origem | Conceitos |
 | --- | :---: | --- | --- |
-| [01 — Lista simples](01-lista-simples/) | Sim | Exercício | Nós, ponteiros, inserção, remoção e limpeza |
+| [01 — Lista simples](01-lista-simples/) | Sim | Exercício | Nós, ponteiros, inserção, remoção, listagem e limpeza |
 
 ## Conceitos praticados
 
