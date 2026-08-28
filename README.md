@@ -90,10 +90,12 @@ linguagem.
 | Data | Conteúdo |
 | --- | --- |
 | [18/08/2026](aulas/2026-08-18/) | Exercício: implementação de uma lista simplesmente ligada |
+| [25/08/2026](aulas/2026-08-25/) | Estudo de pilha e exercício proposto para melhorar uma fila circular |
 
 ## Requisitos
 
 - C++: compilador compatível com C++11 ou superior (por exemplo, `g++`).
+- C: compilador compatível com C99 ou superior (por exemplo, `gcc`).
 
 Os comandos específicos para compilar e executar cada exemplo estão no README
 da respectiva aula.
