@@ -1,7 +1,7 @@
 # Exercício: fila circular
 
-O objetivo deste exercício é estudar o código-base da fila circular e depois
-desenvolver uma versão melhorada. A melhoria ainda não foi feita.
+O objetivo deste exercício é estudar o código-base da fila circular e comparar
+com uma versão melhorada, interativa e com persistência em arquivo.
 
 ## Organização
 
@@ -16,12 +16,22 @@ desenvolver uma versão melhorada. A melhoria ainda não foi feita.
 ```
 
 - `codigo-base/`: contém o código original, mantido sem modificações;
-- `versao-melhorada/`: está reservada para a versão que ainda será
-  desenvolvida.
+- `versao-melhorada/`: contém a versão interativa com salvamento em arquivo;
 
 ## Compilação do código-base
 
+Execute a partir de `codigo-base/c`:
+
 ```bash
-gcc codigo-base/c/main.c -o fila-circular
-./fila-circular
+gcc main.c -o main.bin
+./main.bin
+```
+
+## Execução da versão melhorada
+
+Execute a partir de `versao-melhorada/c`:
+
+```bash
+gcc main.c -o main.bin
+./main.bin
 ```

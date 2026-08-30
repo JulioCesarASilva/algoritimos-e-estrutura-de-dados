@@ -6,7 +6,9 @@ O código-fonte original foi mantido sem modificações.
 
 ## Compilação e execução
 
+Execute a partir de `01-pilha-estudo/c`:
+
 ```bash
-gcc c/main.c -o pilha
-./pilha
+gcc main.c -o pilha.bin
+./pilha.bin
 ```

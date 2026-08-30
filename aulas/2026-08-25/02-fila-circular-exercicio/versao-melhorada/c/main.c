@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 #define TAMANHO 10   // Capacidade máxima (uma posição fica reservada)
+#define ARQUIVO_DADOS "../../../tmp/fila.dat"
 
 // Estrutura da fila circular
 typedef struct {
@@ -86,10 +87,10 @@ void exibir(Fila *f) {
 
 // Salva a fila inteira no arquivo
 bool salvar_binario(const Fila *f) {
-    FILE *arquivo = fopen("fila.dat", "wb");
+    FILE *arquivo = fopen(ARQUIVO_DADOS, "wb");
 
     if (arquivo == NULL) {
-        perror("Erro ao abrir fila.dat");
+        perror("Erro ao abrir o arquivo de dados");
         return false;
     }
 
@@ -109,7 +110,7 @@ bool salvar_binario(const Fila *f) {
 
 // Carrega a fila inteira do arquivo
 bool carregar_binario(Fila *f) {
-    FILE *arquivo = fopen("fila.dat", "rb");
+    FILE *arquivo = fopen(ARQUIVO_DADOS, "rb");
 
     if (arquivo == NULL) {
         // Não existe arquivo salvo: começa com uma fila vazia
