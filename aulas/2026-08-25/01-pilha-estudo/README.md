@@ -6,7 +6,7 @@ O código-fonte original foi mantido sem modificações.
 
 ## Compilação e execução
 
-Execute a partir de `01-pilha-estudo/c`:
+Execute os comandos **a partir da pasta com os codigos de suas respectivas linguagens**:
 
 ```bash
 gcc main.c -o pilha.bin

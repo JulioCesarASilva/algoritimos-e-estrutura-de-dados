@@ -20,5 +20,4 @@ com persistência de dados.
 
 ## Compilação e execução
 
-Cada projeto deve ser compilado a partir de sua pasta `c/`. Os binários são
-criados em `tmp/`; a fila melhorada também salva seus dados em `tmp/fila.dat`.
+Cada projeto deve ser compilado a partir de sua pasta `c/`. Os binários são criados na mesma pasta da execução; a fila melhorada também salva seus dados na mesma pasta.

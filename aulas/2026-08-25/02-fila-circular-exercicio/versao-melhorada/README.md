@@ -20,16 +20,7 @@ O vetor interno possui 10 posições, mas uma delas é reservada para distinguir
 uma fila cheia de uma fila vazia. Portanto, a fila armazena no máximo **9
 inteiros** ao mesmo tempo.
 
-## Compilação e execução
-
-Execute a partir de `versao-melhorada/c`:
-
-```bash
-gcc main.c -o ../../../tmp/fila-circular.bin
-../../../tmp/fila-circular.bin
-```
-
-O executável é criado em `tmp/fila-circular.bin`.
+## Execução
 
 O programa apresenta as opções abaixo:
 
@@ -41,9 +32,6 @@ O programa apresenta as opções abaixo:
 0 - Salvar e sair
 ```
 
-Ao escolher `0`, o estado atual da fila é salvo em `tmp/fila.dat`. Na próxima
-execução, esse arquivo é carregado automaticamente. Caso ele não exista, o
-programa começa com uma fila vazia.
+Ao escolher `0`, o estado atual da fila é salvo em `fila.dat`. Na próxima execução, esse arquivo é carregado automaticamente. Caso ele não exista, o programa começa com uma fila vazia.
 
-> Para reiniciar a fila, remova `tmp/fila.dat` antes de executar o programa
-> novamente.
+> Para reiniciar a fila, remova `fila.dat` antes de executar o programa novamente.
