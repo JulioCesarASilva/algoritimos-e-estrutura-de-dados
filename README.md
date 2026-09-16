@@ -91,6 +91,7 @@ linguagem.
 | --- | --- |
 | [18/08/2026](aulas/2026-08-18/) | Exercício: implementação de uma lista simplesmente ligada |
 | [25/08/2026](aulas/2026-08-25/) | Estudo de pilha e exercício proposto para melhorar uma fila circular |
+| [15/09/2026](aulas/2026-09-15/) | Exemplos de ordenação de vetores em C com bubble sort |
 
 ## Requisitos
 
