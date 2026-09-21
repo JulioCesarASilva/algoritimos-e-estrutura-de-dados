@@ -12,4 +12,11 @@ gcc -std=c99 main.c -o bubble-sort.bin
 ./bubble-sort.bin
 ```
 
+Execute a partir da pasta `cpp/`:
+
+```bash
+g++ -std=c++11 main.cpp sort.cpp -o bubble-sort.bin
+./sort.bin
+```
+
 Para o vetor do exemplo, a saída é `11, 12, 22, 25, 34, 64, 90, `.
